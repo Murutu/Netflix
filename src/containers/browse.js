@@ -5,7 +5,6 @@ import { FirebaseContext } from "../context/firebase";
 import { SelectProfileContainer } from "./profiles";
 import { FooterContainer } from "./footer";
 import * as ROUTES from "../constants/routes";
-import logo from "../logo.svg";
 
 export function BrowseContainer({ slides }) {
   const [category, setCategory] = useState("series");
@@ -47,7 +46,6 @@ export function BrowseContainer({ slides }) {
       <Header src="joker1" dontShowOnSmallViewPort>
         <Header.Frame>
           <Header.Group>
-            <Header.Logo to={ROUTES.HOME} src={logo} alt="Netflix" />
             <Header.TextLink
               active={category === "series" ? "true" : "false"}
               onClick={() => setCategory("series")}
