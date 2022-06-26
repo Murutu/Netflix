@@ -15,9 +15,9 @@
 ## Setup
 
 In order to get the project running locally, you need to download the repo:
-`sh git clone https://github.com/Murutu/Netflix.git `.
-Next step is to go into `sh Netflix ` directory and install all dependencies:
+` git clone https://github.com/Murutu/Netflix.git `.
+Next step is to go into ` Netflix ` directory and install all dependencies:
 
-```sh
+```
 npm install || yarn install
 ```
