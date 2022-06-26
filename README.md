@@ -18,5 +18,5 @@ In order to get the project running locally, you need to download the repo:` git
 Next step is to go into ` Netflix ` directory and install all dependencies:
 
 ```
-npm install || yarn install
+npm install
 ```
