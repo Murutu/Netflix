@@ -4,7 +4,7 @@
 > It's purpose to to provide quality content for users to enjoy.
 > Each page has its own features that is handled using firebase.
 
-![](images/net.png)
+![](public/images/net.png)
 
 ## Technologies Used
 
